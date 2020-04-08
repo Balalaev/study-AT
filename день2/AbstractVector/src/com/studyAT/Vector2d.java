@@ -26,8 +26,9 @@ public class Vector2d {
                 this.getY() - a.getY());
     }
 
-    public double scalarMultip(Vector2d a){
-        return x * a.getX() + y * a.getY();
+    public double scalarMultiply(Vector2d a){
+        return this.getX() * a.getX() +
+                this.getY() * a.getY();
     }
 
     public String toString() {

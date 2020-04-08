@@ -13,12 +13,12 @@ public class Main {
 
         System.out.println("a + b = " + a.add(b).toString());
         System.out.println("a - b = " + a.subtract(b).toString());
-        System.out.println("Scalar Multiply = " + a.scalarMultip(b));
+        System.out.println("Scalar Multiply = " + a.scalarMultiply(b));
 
         System.out.println("c + d = " + c.add(d).toString());
         System.out.println("c - d = " + c.subtract(d).toString());
-        System.out.println("Vector Multiply = " + c.vectorMultip(d).toString());
-        System.out.println("Scalar Multiply = " + c.scalarMultip(d));
+        System.out.println("Vector Multiply = " + c.vectorMultiply(d).toString());
+        System.out.println("Scalar Multiply = " + c.scalarMultiply(d));
     }
 
 }
